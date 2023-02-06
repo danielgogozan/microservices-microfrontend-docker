@@ -1,0 +1,22 @@
+version: "3"
+services:
+  auth:
+    build: ./auth
+    ports:
+      - 3001:3001
+  user:
+    build: ./user
+    ports:
+      - 3010:3010
+  recipeserver:
+    build: ./recipeserver
+    ports:
+      - 3012:3012
+#  host-frontend:
+#    build: ./host-app
+#    ports:
+#      - 3000:3000
+#  remote-frontend:
+#    build: ./remote-app
+#    ports:
+#      - 4000:4000

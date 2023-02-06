@@ -1,0 +1,181 @@
+/**,*/
+/**::before,*/
+/**::after {*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+body {
+    padding: 40px;
+    color: #f7f7f7;
+    min-height: 100vh;
+    background: rgb(37, 37, 37);
+    text-rendering: optimizeSpeed;
+    font-family: "Roboto", sans-serif;
+}
+
+textarea {
+    font-family: "Roboto", sans-serif;
+}
+
+.title {
+    font-size: 1.25rem;
+}
+
+.App {
+    padding: 1rem;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background: #333;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 5px;
+}
+
+h1 {
+    font-weight: 300;
+    color: #e7e7e7;
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+.input-wrapper {
+    margin: 1rem;
+}
+
+.todos-wrapper {
+    margin-bottom: 2.5rem;
+}
+
+.todo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.recipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trendingrecipe {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input, textarea {
+    width: 450px;
+    padding: 0.8em;
+}
+
+input:focus, textarea {
+    outline: none;
+}
+
+button {
+    width: 120px;
+    padding: 0.85em;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+input,
+textarea,
+button {
+    font-size: 1em;
+    appearance: none;
+    color: currentcolor;
+    background: transparent;
+    border: 1px solid #828691;
+    border-radius: 5px;
+}
+
+.add-button {
+    color: #fa8c00;
+    width: 250px;
+    line-height: 30px;
+    border-color: #fa8c00;
+}
+
+.add-button:hover {
+    color: #ffffff;
+    background: #fa8c00;
+}
+
+.delete-button {
+    color: #da5757;
+    align-content: center;
+    border-left: none;
+    border-radius: 5px;
+    border-color: #da5757;
+}
+
+.delete-button:hover {
+    color: #fcfcfc;
+    background: #fe6a6a;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+.lirecipe {
+    width: 450px;
+    padding: 0.85em;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    background: #494847;
+    letter-spacing: 0.02rem;
+    transition: all 0.3s ease-out;
+    border-left: 5px solid #fa8c00;
+    border-radius: 5px;
+}
+
+
+.litrending {
+    width: 450px;
+    padding: 0.85em;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    background: #494847;
+    letter-spacing: 0.02rem;
+    transition: all 0.3s ease-out;
+    border-left: 5px solid #8e1eee;
+    border-radius: 5px;
+}
+
+li:last-child {
+    margin-bottom: 0px;
+}
+
+.empty {
+    font-size: 20px;
+    font-weight: 200;
+    color: #ff5b5b;
+    letter-spacing: 0.1rem;
+}
+
+#outer-div {
+    width: 100%;
+    text-align: center;
+}
+
+#inner-div {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 3px;
+}
+
+.recipe-description {
+    padding-top: 5px;
+}
+
+.trending {
+    padding-top: 20px;
+    align-content: flex-start;
+}

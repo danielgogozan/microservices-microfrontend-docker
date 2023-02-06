@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: auto;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.spacer {
+  padding-bottom: 10px;
+}
+
+.logininput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+}
+
+.diduknow {
+  width: 35px;
+  height: 35px;
+  align-content: center;
+}
+
+.container {
+  padding: 16px;
+}
+
+.banner {
+  padding: 15px;
+  background-color: #494847;
+  border-radius: 10px;
+}
+
+.banner-title {
+  font-size: 1.2rem;
+  padding-left: 5px;
+  color: #ffd51e;
+  font-family: "Chalkboard", sans-serif;
+}
+
+.banner-title-div {
+  justify-content: center;
+  display: inline-block;
+  vertical-align: center;
+}
+
+.banner-description {
+  font-size: 1.1rem;
+  font-family: "Chalkboard", sans-serif;
+}
+
+.page-title {
+  color: #fa8c00;
+}
+
+.page-subtitle {
+  letter-spacing: 2px;
+  color: #bebebe;
+  font-family: "Roboto Light", sans-serif;
+}

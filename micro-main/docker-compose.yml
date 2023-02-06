@@ -1,0 +1,10 @@
+version: "3"
+services:
+  container:
+    build: ./container
+    ports:
+      - 8082:8082
+  counter:
+    build: ./counter
+    ports:
+      - 8081:8081
