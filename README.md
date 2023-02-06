@@ -31,3 +31,8 @@ Microservices are communicating via message exchanges over channels. For e.g., A
 -	Event-driven
 
 Microservices are also communicating via events stream. For e.g., Recipe microservice emits a specific event each time a new recipe has been saved and User microservices listens and properly responds to the event. 
+
+# App
+<blockquote class="imgur-embed-pub" lang="en" data-id="VtsyWIK" data-context="false" ><a href="//imgur.com/VtsyWIK"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![Login-Screen](https://i.imgur.com/VtsyWIK_d.webp?maxwidth=760&fidelity=grand)
+![Recipes-Screen](https://i.imgur.com/NHWRFMw.png)
