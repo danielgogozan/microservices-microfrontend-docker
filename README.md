@@ -2,7 +2,7 @@
 
 Recipes manager app that uses NestJS microservices, Webpack Module Federation microfrontend architecture and Docker to deploy the solution.
 
-Check the documentation file for more.
+Please check the _Recipes_manager_documentation.docx_ file for more.
 
 # C4 Diagrams
 
